@@ -20,7 +20,15 @@ descobrir onde está a divergência e por quê.
 2. Executar, nesta ordem, os arquivos de `sql/`: 01, 02 e 03
 
 ## Resultados
+
+### Análise A: itens no ERP que faltam no WMS
 ![Análise A](docs/prints/analise_a.png)
+
+### Análise B: itens com saldo diferente
+![Análise B](docs/prints/analise_b.png)
+
+### Análise C: itens no WMS que faltam no ERP
+![Análise C](docs/prints/analise_c.png)
 
 ## Próximas fases
 - [ ] API do WMS em Python (FastAPI)
